@@ -1,0 +1,289 @@
+@font-face {
+    font-family: TitleFont;
+    src: url(fonts/theTitel.ttf);
+}
+
+@font-face {
+    font-family: Font2;
+    src: url(fonts/font2.ttf);
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0; padding: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+ }
+ body{
+    background-color: rgb(209, 209, 208);   
+}
+
+
+.banner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 20px;
+}
+
+
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    position: absolute;
+    top: 0;
+}
+
+.content{
+    width: 60%;
+    margin: 106px auto 0;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 350px;
+}
+
+.content h1{
+    font-size: 60px; 
+    font-family: TitleFont;   
+}
+
+.content h3{
+    width: 80%;
+    margin: 20px auto 100px;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: TitleFont;
+}
+
+.content2{
+    width: 60%;
+    margin: 106px auto 0;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 240px;
+    left: 335px;
+}
+
+.content2 h1{
+    font-size: 60px; 
+    font-family: TitleFont;   
+}
+
+.content2 h3{
+    width: 80%;
+    margin: 20px auto 100px;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: TitleFont;
+}
+
+
+header{
+    position: fixed;
+    top: 0;left: 0; right: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: rgb(201,181,118);
+}
+header .title{
+    font-family: TitleFont;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+}
+
+header .navBar ul{
+    list-style: none;    
+}
+
+header .navBar ul li{
+    position: relative;
+    float: left;    
+}
+header .navBar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(66,81,68);
+    display: block;
+    font-family: Font2;    
+}
+
+header .navBar ul li a:hover{
+    background: #333;
+    color: white;    
+}
+
+
+.btn-1{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 0px 1010px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 1px solid #0a0a0a;
+    background: #c9b576;
+    color: rgb(82, 102, 47);
+    cursor: pointer; 
+    transition: background 0.5s;
+}
+
+.btn-1:hover {
+    background: rgb(82, 102, 47);;
+    border: 1px solid #070707;
+    color: #c9b576;
+}
+
+.btn-2{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #cacaca;
+    background: rgb(131, 120, 101);
+    color: white;
+    cursor: pointer;
+    transition: background 0.5s; 
+}
+.btn-2:hover {
+    background: transparent;
+    border: 2px solid #ffffff;
+}
+
+
+.btn-3{
+    
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    
+    border-radius: 25px;
+    font-weight: bold;
+    border: 1px solid #0a0a0a;
+    background: #c9b576;
+    color: rgb(82, 102, 47);
+    cursor: pointer; 
+    transition: background 0.5s;
+    
+}
+
+.btn-3:hover {
+    background: rgb(82, 102, 47);;
+    border: 1px solid #070707;
+    color: #c9b576;
+}
+
+.whyww2{
+    
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.ContactUS{
+    margin-bottom: 150px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+}
+
+.about{
+    margin-top: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aboutImage{
+   flex: 1;
+   margin-right: 40px;
+   overflow: hidden; 
+}
+
+.aboutImage img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    transition: 0,5s ease;
+}
+
+
+
+.aboutText{
+    flex: 1;
+}
+
+.aboutText h1{
+    margin-bottom: 15px;
+    color: #0a0a0a;
+    font-family: TitleFont;
+    font-size: 44px;
+}
+
+.aboutText p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #0a0a0a;
+    font-family: TitleFont;
+}
+
+.aboutText .readMore{
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(82, 102, 47);
+    font-size: 19px;
+    background: #c9b576;
+    font-family: TitleFont;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-top: 35px;
+    margin-left: 670PX;
+    border: 1px solid #0a0a0a;
+    transition: 0,5 ease;
+}
+
+.aboutText .readMore:hover{
+    background: rgb(82, 102, 47);;
+    border: 1px solid #070707;
+    color: #c9b576;
+}
+
+.footer{
+    width: 100%;
+    height: 25px;
+    margin-top: 45px;
+    z-index: -1;
+    overflow: hidden;
+    background: darkgray;
+    text-align: center;
+}
+.footer P{
+    font-family: TitleFont;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 5px;
+}

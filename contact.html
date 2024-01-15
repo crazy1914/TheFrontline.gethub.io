@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+        <link href="ContactUs.css" rel="stylesheet" type="text/css"/>
+        <title>
+            The Frontline
+        </title>
+    </head>
+    <body>
+        <header>
+            <a href="#" class="title"> The Frontline</a>
+            <nav class="navBar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Armory.html">Armory</a></li>
+                
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>           
+        </header>
+            <div class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form >
+                    <label for="fname">First Name</label>
+                    <input type="text" id="name" name="firstname" placeholder="Your name.." required>
+        
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email address.." required>
+
+                    <label for="subject">subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="the subject.." required>
+        
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="your massage.."  required></textarea>
+        
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <p>
+                    &copy; 2024 thefrontline.com | All Rights Reserved | Author MOAZ DAIF
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script type="text/javascript" src="script.js"></script> 
+    </body>
+</html>

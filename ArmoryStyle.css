@@ -1,0 +1,253 @@
+*{
+    text-transform: capitalize;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.cardSection{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: rgb(252, 251, 251);
+    width: 300px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.title44{
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.title44 h1{
+    font-family: TitleFont;
+    margin-bottom: 12px;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0);
+    font-size: 64px;
+}
+
+.title44 h3{
+    font-family: TitleFont;
+    margin-bottom: 12px;
+    margin-left: 20px;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.cardImage{
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+}
+
+.card a{
+    background:	#3a3a3a;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    transition: 0.5s;
+    font-family: TitleFont;
+}
+
+.card h2{
+    font-family: TitleFont;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.card p{
+    font-family: TitleFont;
+    padding: 10px;
+    font-size: medium;
+    
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.title44{
+    font-family: TitleFont;
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20PX;
+}
+
+.backG{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.buttonCat{
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #3a3a3a;
+    color: rgb(255, 255, 255); 
+    border: 1px solid #0a0a0a;
+    border-radius: 25px;
+    font-family: TitleFont;
+    transition: background 0.5s;
+}
+
+.buttonCat:hover{
+    background: rgb(82, 102, 47);;
+    border: 1px solid #070707;
+    color: #c9b576;
+}
+
+.video{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+
+.top{
+    background-image: url('images/up-arrow.png');
+}
+.Kar98K{
+    background-image: url('images/Kar98K.jpg');
+}
+.Gewehr43{
+    background-image: url('images/Gewehr43.jpg');
+}
+.MP40{
+    background-image: url('images/MP40.JPG');
+}
+.Sturmgewehr44{
+    background-image: url('images/Sturmgewehr44.jpg');
+}
+.MG42{
+    background-image: url('images/MG42.jpg');
+}
+.Luger{
+    background-image: url('images/Luger.jpg');
+}
+.Panzerschreck43{
+    background-image: url('images/Panzerschreck43.png');
+}
+.pak40{
+    background-image: url('images/pak40.jpg');
+}
+.flak38{
+    background-image: url('images/flak38.jpg');
+}
+.Wespe{
+    background-image: url('images/wespe.jpg');
+}
+.flak88{
+    background-image: url('images/Flak88.jpg');
+}
+.stug3{
+    background-image: url('images/StuGIII.png');
+}
+.leFH18{
+    background-image: url('images/lefh181.jpg');
+}
+.leig18{
+    background-image: url('images/leig18.jpg');
+}
+.PanzerIV{
+    background-image: url('images/panzerIV.png');
+}
+.PantherV{
+    background-image: url('images/PantherV.png');
+}
+.TigerI{
+    background-image: url('images/Tiger.png');
+}
+.Ostwind{
+    background-image: url('images/FlakpanzerIVOstwind.png');
+}
+.Panzerwerfer42{
+    background-image: url('images/Panzerwerfer42.png');
+}
+.SdKfz222{
+    background-image: url('images/SdKfz222scqt.png');
+}
+.SdKfz251{
+    background-image: url('images/SdKfz251.png');
+}
+.MosinNagant{
+    background-image: url('images/Mosin.png');
+}
+.SVT40{
+    background-image: url('images/SVT40.png');
+}
+.DP27{
+    background-image: url('images/DPmg.jpg');
+}
+.PPSh41{
+    background-image: url('images/PPSh41.jpg');
+}
+.PMM1910{
+    background-image: url('images/Vickers.jpg');
+}
+.TTpistol{
+    background-image: url('images/TTpistol.png');
+}
+.AA72K{
+    background-image: url('images/72-K.jpg');
+}
+.DShK{
+    background-image: url('images/dshk.jpg');
+}
+.M42{
+    background-image: url('images/M-42AT.webp');
+}
+.ZiS3{
+    background-image: url('images/zis3ok.png');
+}
+.PTRS41{
+    background-image: url('images/Ptrs41.webp');
+}
+.B4{
+    background-image: url('images/B4.webp');
+}
+.ML20{
+    background-image: url('images/ML20.png');
+}
+.BT2{
+    background-image: url('images/BT-2.png');
+}
+.T3476{
+    background-image: url('images/T34-76.png');
+}
+.KV1{
+    background-image: url('images/KV-1.png') ;
+}
+.KV2{
+    background-image: url('images/KV-2.png');
+}
+.T3485{
+    background-image: url('images/T34-85.png');
+}
+.IS2{
+    background-image: url('images/IS-II.png');
+}
+.ISU122{
+    background-image: url('images/ISU-122.png');
+}
+.Katyusha{
+    background-image: url('images/katyusha.jpg');
+}
